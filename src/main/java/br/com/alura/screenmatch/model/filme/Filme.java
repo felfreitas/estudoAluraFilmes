@@ -6,7 +6,7 @@ public class Filme {
     private Integer anoLancamento;
     private String genero;
 
-    public Filme (DadosCadastroFilme dados){
+    public Filme(DadosCadastroFilme dados) {
         this.nome = dados.nome();
         this.duracaoEmMinutos = dados.duracao();
         this.anoLancamento = dados.ano();
